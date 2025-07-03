@@ -10,7 +10,7 @@
     "start": "node index.js",
     "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:ui": "rm -rf dist && cd ../../part2/phonebook && npm run build && cp -r dist ../../part3/phonebook/",
+    "build:ui": "rm -rf dist && cd ~/java_coding/mooc_full/FullStackMooc/part2/phonebook && npm run build && cp -r dist ~/fullstack/phonebook/render_phonebook/",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
   },
   "dependencies": {
